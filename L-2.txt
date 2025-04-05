@@ -1,0 +1,40 @@
+Network:
+Many devices connet together is called Network. Types of network:
+.LAN- local area network
+network at home, in a bulding etc.
+
+.MAN- Metropolitan Area Network
+network at different city, state etc.
+
+.WAN-Wide area network
+network b/w different country.
+
+Network can be wired or wireless
+
+
+Internet:
+It is a Globle system (Network of Network).
+Internet word is made by two words called Inter and Net 
+The word INTER mean Interconneted and Net mean Network 
+
+
+www(World Wide web):
+interconnet with document & resource which can be excess by Internet
+
+
+IP address:
+It is a address of computer
+It is used to sent data or to retrive data from another devices
+
+
+Browser:
+It is a tool which is use to retrive data from Internet
+
+
+Browser Engine:
+It is a brain of Browser
+
+
+Client & server:
+Client request server for something(new data,update, input, delete)
+server is the mechine which give respond(Output)
