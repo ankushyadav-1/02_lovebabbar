@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L-21</title>
+    <style>
+      .container {
+        background-color: blueviolet;
+        border: 7px solid black;
+        height: 500px;
+        margin: 5px;
+        padding: 2px;
+        display: flex;
+      }
+      .container1 {
+        background-color: orange;
+        border: 7px solid black;
+        height: 500px;
+        margin: 5px;
+        padding: 2px;
+        display: flex;
+      }
+
+      .box1 {
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        border: 3px solid black;
+      }
+      .box2 {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        border: 3px solid black;
+      }
+      .box3 {
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
+        border: 3px solid black;
+      }
+      .box4 {
+        height: 200px;
+        width: 200px;
+        background-color: antiquewhite;
+        border: 3px solid black;
+      }
+      #para1 {
+        height: 90px;
+        width: 90px;
+        background-color: rgb(244, 143, 11);
+        border: 3px solid black;
+        margin: 5px;
+        padding: 3px;
+      }
+      #para2 {
+        height: 90px;
+        width: 90px;
+        background-color: rgb(125, 73, 4);
+        border: 3px solid black;
+        margin: 5px;
+        padding: 3px;
+      }
+      .img1 {
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        /* padding: 5px; */
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+      @media (min-width: 640px) {
+        .container {
+          flex-direction: row;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .container1 {
+          flex-direction: column;
+        }
+      }
+      @media (min-width: 640px) {
+        .container1 {
+          flex-direction: row;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">box1</div>
+      <div class="box2">box2</div>
+      <div class="box3">box3</div>
+      <div class="box4">box4</div>
+    </div>
+
+    <div class="container1">
+      <div>
+        <p id="para1">textpara1</p>
+        <p id="para2">testpara2</p>
+      </div>
+      <div>
+        <img class="img1" src="a7c793a7-064b-4304-9f28-a0a040b57872.png" alt="img01"/>
+      </div>
+    </div>
+  </body>
+</html>
