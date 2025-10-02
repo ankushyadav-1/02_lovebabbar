@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color: #89CFF0; */
+}
+.conatiner {
+  /* height: 10vh; */
+  width: 100vw;
+  overflow-x: none;
+}
+.navconatiner {
+  width: 100vw;
+  background-color: #89cff0;
+  border: 1px solid black;
+  min-height: 80px;
+}
+#navlist {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#ReDirect {
+  margin: 7px;
+  padding: 15px;
+  font-size: 20px;
+  gap: 30px;
+  display: flex;
+  /* color: rgb(0, 0, 0);  */
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), -1px -1px 2px rgb(255, 255, 255);
+}
+#BrandName {
+  margin: 5px;
+  padding: 10px;
+  font-size: 40px;
+  /* color: rgb(222, 189, 189); */
+  color: rgb(75, 75, 75);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), -1px -1px 2px rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#mainbody {
+  background-color: #cdeaf9;
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  border: 2px solid black;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  gap: 90px;
+  box-shadow: 00px 00px 10px #080808, -00px -00px 10px #080808;
+}
+
+.footerbox {
+  /* height: 10vh; */
+  width: 100vw;
+  overflow-x: none;
+  background-color: #89cff0;
+  border: 1px solid black;
+  text-align: center;
+  min-height: 30px;
+  /* text-shadow: 1px 1px 2px black, -1px -1px 2px black; */
+}
+.footerbox p {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.item {
+  display: flex;
+}
+
+.rightbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.rightbox img {
+  height: 230px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.rightbox:hover {
+  transform: scale(1.01);
+}
+
+.leftbox {
+  display: flex;
+  gap: 10px;
+  margin-right: 30px;
+  flex-direction: column;
+}
+
+.leftbox h2 {
+  font-size: 1.75rem;
+}
+
+.leftbox h2:hover {
+  transform: scale(1.01);
+}
+
+.ingbox {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.recbox {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.rightbox .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), -2px -2px 2px rgb(0, 0, 0);
+  background-color: #43434380;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
