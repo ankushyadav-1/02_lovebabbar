@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.maindiv{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: aquamarine;
+    height: 380px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.maindiv .photo{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+}
+p{
+    text-align: center;
+}
