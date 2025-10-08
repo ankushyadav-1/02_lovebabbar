@@ -86,3 +86,28 @@ img {
   height: 60px;
   width: 60px;
 }
+
+
+@media (max-width:520px){
+  .cardbox{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (min-width:520px){
+  .cardbox{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:900px){
+  .cardbox{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (min-width:1100px){
+  .cardbox{
+    grid-template-columns: repeat(4,1fr);
+  }
+}
