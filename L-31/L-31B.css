@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 1rem;
+  background-color: aliceblue;
+  padding: 4rem;
+
+  grid-template-areas:
+    "Header Header Header"
+    "sidebar text1 text1"
+    "sidebar text2 text3"
+    /* "sidebar text2 text3" */
+    "Footer Footer Footer";
+}
+
+.item {
+  background-color: #43434343;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+#Header {
+  grid-area: Header;
+}
+
+#sidebar {
+  grid-area: sidebar;
+}
+
+#text1 {
+  grid-area: text1;
+}
+
+#text2 {
+  grid-area: text2;
+}
+
+#text3 {
+  grid-area: text3;
+}
+
+#Footer {
+  grid-area: Footer;
+}

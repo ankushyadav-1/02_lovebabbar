@@ -39,6 +39,8 @@ body {
 
 .cardbox {
   display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 300px)); */
+  /* justify-item: center; */
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(2, 2fr);
   gap: 5px;
@@ -110,4 +112,4 @@ img {
   .cardbox{
     grid-template-columns: repeat(4,1fr);
   }
-}
+} 
